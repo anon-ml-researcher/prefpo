@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Testing
+.pytest_cache/
+tests/output/
+
+# IDE / tooling
+.claude/
+.vscode/
+.idea/
+.venv/
+
+# Dev artifacts
+CLAUDE.md
