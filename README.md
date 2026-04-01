@@ -10,7 +10,7 @@ Lightweight, preference-based prompt optimization. Give PrefPO a pool of prompt 
 
 ## How It Works
 
-PrefPO implements the PRPO (Preference-based Prompt Optimization) loop:
+PrefPO implements the Preference-based Prompt Optimization loop:
 
 1. **Sample** two prompts from a pool
 2. **Generate** outputs from both using the task model

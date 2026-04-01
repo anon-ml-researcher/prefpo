@@ -68,7 +68,7 @@ async def run_iteration(
     iteration_index: int,
     semaphore: asyncio.Semaphore,
 ) -> SingleIterationResult:
-    """One PRPO iteration: generate trajectories, discriminate, improve."""
+    """One PrefPO iteration: generate trajectories, discriminate, improve."""
 
     # Step 1 — Generate trajectories (mode-dependent, parallel)
     if mode == "instruction":
